@@ -1,0 +1,80 @@
+{
+  "main": {
+    "tag": "div",
+    "class": "stories"
+  },
+
+  "story": {
+    "tag": "div",
+    "class": "story",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "user",
+        "inner": "%user%"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      },
+	  {
+        "tag": "div",
+        "class": "prio",
+        "inner": "%prio%"
+      }
+    ]
+  },
+
+  "input": {
+    "tag": "div",
+    "class": "new_story",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "name"
+      },
+      {
+        "tag": "div",
+        "class": "textarea",
+        "inner": {
+          "tag": "form",
+          "inner": [
+            {
+              "tag": "textarea",
+              "placeholder": "Enter story here..."
+            }
+          ]
+        }
+      },
+      {
+        "tag": "div",
+        "class": "textprio",
+        "inner": {
+          "tag": "form",
+          "inner": [
+			{
+              "tag": "input",
+              "placeholder": "Enter priority here..."
+            }
+          ]
+        }
+      },
+      {
+        "tag": "div",
+        "class": "textsubmit",
+        "inner": {
+          "tag": "form",
+          "inner": [
+            {
+              "tag": "input",
+              "type": "submit",
+              "value": "Send"
+            }
+          ],
+          "onsubmit": "%onsubmit%"
+        }
+      }
+    ]
+  }
+}

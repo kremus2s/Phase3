@@ -1,0 +1,39 @@
+.ccm-userstory {
+  border-style: solid;
+  border-color: blue;
+  border-radius: 20px;
+}
+.ccm-userstory > .stories > .story {
+  display: table;
+  padding: 1.0em;
+}
+.ccm-userstory > .stories > .story > .user {
+  font-weight:bold;
+}
+.ccm-userstory > .stories > .story > .text {
+  font-size:17px;
+  font-style:italic;
+}
+.ccm-userstory > .stories > .story > .prio {
+  color:red;
+}
+.ccm-userstory > .stories > .story > div {
+  display: table-row;
+}
+.ccm-userstory > .stories > .story > div > div {
+  display: table-cell;  
+}
+.ccm-userstory > .stories > .story > .name:after {
+  content: ':';
+  padding-right: 0.5em;
+}
+
+.ccm-userstory > .stories > .new_story {
+  padding: 1.0em;
+}
+.ccm-userstory > .stories > .new_story > .textprio {
+  margin-top: 2px;
+}
+.ccm-userstory > .stories > .new_story > .textsubmit {
+  margin-top: 5px;
+}

@@ -1,0 +1,15 @@
+{
+  "key": "myfirststory",
+  "stories": [
+    {
+      "story": "Hello, World!",
+      "prio": "5",
+      "user": "kremus"
+    },
+    {
+      "story": "test123",
+      "prio": "5",
+      "user": "kremus"
+    }
+  ]
+}
